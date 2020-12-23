@@ -1,16 +1,13 @@
 import React from 'react';
 import './FriendList.css';
+import FriendListItem from "./FriendListItem";
+import friends from './sourse/friends.json';
 
-
-function FriendList({ friends }) {
+function FriendList() {
 
         
     return (<ul className="friend-list">
-    {friends.map(item => <li key={item.id} className="item">
-  {item.isOnline ?(<span className="status"></span>):(<span className="noStatus"></span>)}
-  <img className="avatar" src={item.avatar} alt="" width="48" />
-  <p className="name">{item.name}</p>
-</li>)}
+    {<FriendListItem friends={friends}/> }
   </ul>
   )
 }

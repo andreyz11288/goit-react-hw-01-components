@@ -2,25 +2,27 @@
     display: grid;
     gap: 20px;
     padding: 0px;
-    width: 500px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
     background-color: bisque;
   }
   
-  .item{
+  .friend-item{
       display: flex;
       border: 2px solid lightslategray;
       border-radius: 5px;
       background-color: linen;
   }
-  .avatar{
+  .friend-avatar{
     margin-left: 10px;
     margin-top: auto;
     margin-bottom: auto;
       height: 48px;
+      background-color: gray;
+      border-radius: 10px;
   }
-  .status{
+  .friend-status{
       margin-left: 5px;
     margin-top: auto;
     margin-bottom: auto;
@@ -29,7 +31,8 @@
       background-color: limegreen;
       border-radius: 50%;
   }
-  .noStatus{
+  .friend-noStatus{
+    margin-left: 5px;
     margin-top: auto;
     margin-bottom: auto;
       width: 15px;
@@ -37,6 +40,6 @@
       background-color: rgb(196, 24, 24);
       border-radius: 50%;  
   }
-  .name{
+  .friend-name{
       margin-left: 10px;
   }

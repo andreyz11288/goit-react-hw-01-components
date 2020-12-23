@@ -1,0 +1,16 @@
+.transaction-history{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    
+        width: 300px;
+        border-collapse: collapse;
+       
+    }
+    TD, TH {
+     padding: 10px;
+     border: 1px solid black;
+    }
+    TH {
+     background: lightskyblue;
+    }
