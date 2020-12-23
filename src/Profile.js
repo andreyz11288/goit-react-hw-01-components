@@ -9,8 +9,8 @@ function Profile({data}) {
      <div className="description">
     <img
       src={data.avatar}
-      alt="Аватар пользователя"npm onAnimationStart
-      className="avatar"
+      alt="Аватар пользователя"
+      className="avatar1"
     />
     <p className="name">{data.name}</p>
     <p className="tag">@{data.tag}</p>
