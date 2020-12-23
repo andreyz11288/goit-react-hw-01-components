@@ -1,0 +1,21 @@
+.statistics {
+  margin: auto;
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  background-color: bisque;
+}
+
+.title {
+  padding-top: 40px;
+}
+
+.stat-list {
+  display: inline-flex;
+  padding: 0px;
+}
+.stat-list li {
+  padding: 20px;
+  display: grid;
+  border: 2px solid lightgrey;
+}
