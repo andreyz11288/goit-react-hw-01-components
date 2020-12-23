@@ -1,4 +1,4 @@
-#root{
+#root {
   display: flex;
   margin: auto;
   background-color: lightsteelblue;
@@ -12,12 +12,11 @@
   margin-right: auto; */
   text-align: center;
   width: 400px;
-  height: 590px;
+  height: 530px;
   background-color: bisque;
 }
 
-.description{
-  
+.description {
   padding-top: 60px;
 }
 .avatar {
@@ -27,22 +26,23 @@
   pointer-events: none;
 }
 
-
 .name {
   font-size: 24px;
   font-weight: bold;
   color: rgb(19, 18, 18);
 }
-.tag, .location, .label{
-  color: lightgrey;
+.tag,
+.location,
+.label {
+  color: lightseagreen;
 }
-.stats{
+.stats {
   padding: 0px;
   display: inline-flex;
   background-color: lightslategray;
 }
-.stats li{
-  padding: 41px;
+.stats li {
+  padding: 40px;
   display: grid;
   border: 2px solid lightgrey;
 }
