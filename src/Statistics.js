@@ -4,21 +4,23 @@ import './Statistics.css';
 
 function Statistics({ title, stats }) {
    
-        const render =   stats.map(item => 
-    <li id={item.id} class="item">
-                  <span class="label">{item.label}</span>
-      <span class="percentage">{ item.percentage}%</span>
-    </li>)    
-  
     return (
-        <section class="statistics">
-  <h2 class="title">Upload stats</h2>
+        <section className="statistics">
+  {title && (<h2 className="title">{title}</h2>)}
 
-            <ul class="stat-list">
-                {render}
+            <ul className="stat-list">
+                {stats.map(item => 
+    <li id={item.id}  className="item">
+                  <span className="label">{item.label}</span>
+      <span className="percentage">{ item.percentage}%</span>
+    </li>)}
               </ul>
 </section>
   )
 }
 
 export default Statistics;
+
+
+
+

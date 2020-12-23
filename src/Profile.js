@@ -6,29 +6,29 @@ import './Profile.css';
 function Profile({data}) {
   return (
     <div className="Profile">
-     <div class="description">
+     <div className="description">
     <img
       src={data.avatar}
       alt="Аватар пользователя"npm onAnimationStart
-      class="avatar"
+      className="avatar"
     />
-    <p class="name">{data.name}</p>
-    <p class="tag">@{data.tag}</p>
-    <p class="location">{data.location}</p>
+    <p className="name">{data.name}</p>
+    <p className="tag">@{data.tag}</p>
+    <p className="location">{data.location}</p>
   </div>
 
-  <ul class="stats">
+  <ul className="stats">
     <li>
-      <span class="label">Followers</span>
-      <span class="quantity">{data.stats.followers}</span>
+      <span className="label">Followers</span>
+      <span className="quantity">{data.stats.followers}</span>
     </li>
     <li>
-      <span class="label">Views</span>
-      <span class="quantity">{data.stats.views}</span>
+      <span className="label">Views</span>
+      <span className="quantity">{data.stats.views}</span>
     </li>
     <li>
-      <span class="label">Likes</span>
-      <span class="quantity">{data.stats.likes}</span>
+      <span className="label">Likes</span>
+      <span className="quantity">{data.stats.likes}</span>
     </li>
   </ul>
     </div>

@@ -1,16 +1,10 @@
-/* #root {
-  display: flex;
-  margin: auto;
-  background-color: lightsteelblue;
-  width: 600px;
-  height: 790px;
-} */
+
 
 .Profile {
   margin: auto;
   text-align: center;
   width: 400px;
-  height: 530px;
+  height: 600px;
   background-color: bisque;
 }
 
