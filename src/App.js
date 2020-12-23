@@ -2,10 +2,10 @@
 import './App.css';
 import React from 'react';
 import './index.css';
-import Profile from './Profile';
-import Statistics from './Statistics'
-import FriendList from './FriendList'
-import TransactionHistory from "./TransactionHistory";
+import Profile from './Profile/Profile';
+import Statistics from './Statistics/Statistics'
+import FriendList from './FriendList/FriendList'
+import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import data from "./sourse/user.json";
 import statisticalData from "./sourse/statistical-data.json";
 import transactions from "./sourse/transactions.json";

@@ -2,7 +2,7 @@
     display: grid;
     gap: 20px;
     padding: 0px;
-    width: 200px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
     background-color: bisque;
@@ -15,9 +15,7 @@
       background-color: linen;
   }
   .friend-avatar{
-    margin-left: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: 10px;
       height: 48px;
       background-color: gray;
       border-radius: 10px;
@@ -42,4 +40,6 @@
   }
   .friend-name{
       margin-left: 10px;
+      margin-top: auto;
+    margin-bottom: auto;
   }

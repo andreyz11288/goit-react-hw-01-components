@@ -1,9 +1,11 @@
 // import logo from './logo.svg';
+import PropTypes from 'prop-types';
 import React from 'react';
 import './Profile.css';
 
 
 function Profile({data}) {
+  
   return (
     <div className="Profile">
      <div className="description">
@@ -36,3 +38,14 @@ function Profile({data}) {
 }
 
 export default Profile;
+
+Profile.propTypes = {
+  avatar: PropTypes.string,
+  location: PropTypes.string,
+  tag: PropTypes.string,
+  name: PropTypes.string,
+  followers: PropTypes.number,
+  views: PropTypes.number,
+  likes: PropTypes.number,
+
+};
