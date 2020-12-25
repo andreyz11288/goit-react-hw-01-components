@@ -1,4 +1,5 @@
 .statistics {
+  position: relative;
   margin: auto;
   text-align: center;
   width: 400px;
@@ -11,6 +12,9 @@
 }
 
 .stat-list {
+  position: absolute;
+  bottom: 0px;
+  margin-left: -46%;
   display: inline-flex;
   padding: 0px;
 }
