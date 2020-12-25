@@ -11,14 +11,14 @@
   padding-top: 40px;
 }
 
-.stat-list {
+.list {
   position: absolute;
   bottom: 0px;
   margin-left: -46%;
   display: inline-flex;
   padding: 0px;
 }
-.stat-list li {
+.list li {
   padding: 20px;
   display: grid;
   border: 2px solid lightgrey;

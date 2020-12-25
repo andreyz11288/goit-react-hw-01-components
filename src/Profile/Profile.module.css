@@ -1,5 +1,3 @@
-
-
 .Profile {
   margin: auto;
   text-align: center;
@@ -11,7 +9,7 @@
 .description {
   padding-top: 60px;
 }
-.avatar1 {
+.avatar {
   background-color: cornflowerblue;
   border-radius: 50%;
   height: 20vmin;

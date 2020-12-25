@@ -1,17 +1,17 @@
-import './FriendList.module.css';
 import PropTypes from 'prop-types';
 import img from '../unnamed.jpg';
+import s from './FriendList.module.css';
 
 function FriendListItem({ id, isOnline, avatar, name }) {
   return (
-    <li key={id} className="friend-item">
+    <li key={id} className={s.item}>
       {isOnline ? (
-        <span className="friend-status"></span>
+        <span className={s.status}></span>
       ) : (
-        <span className="friend-noStatus"></span>
+        <span className={s.noStatus}></span>
       )}
-      <img className="friend-avatar" src={avatar} alt="" width="48" />
-      <p className="friend-name">{name}</p>
+      <img className={s.avatar} src={avatar} alt="" width="48" />
+      <p className={s.name}>{name}</p>
     </li>
   );
 }
