@@ -1,6 +1,6 @@
 .statistics {
   position: relative;
-  margin: auto;
+  margin: 20px auto 0px auto;
   text-align: center;
   width: 400px;
   height: 200px;
@@ -8,6 +8,7 @@
 }
 
 .title {
+  margin: 0px;
   padding-top: 40px;
 }
 
