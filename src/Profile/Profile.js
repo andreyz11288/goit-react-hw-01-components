@@ -4,7 +4,7 @@ import React from 'react';
 import s from './Profile.module.css';
 import img from '../unnamed.jpg';
 
-function Profile({ avatar, name, tag, location, followers, likes, views }) {
+function Profile({ avatar, name, tag, location, stats }) {
   return (
     <div className={s.Profile}>
       <div className={s.description}>
@@ -17,15 +17,15 @@ function Profile({ avatar, name, tag, location, followers, likes, views }) {
       <ul className={s.stats}>
         <li>
           <span className={s.label}>Followers</span>
-          <span className={s.quantity}>{followers}</span>
+          <span className={s.quantity}>{stats.followers}</span>
         </li>
         <li>
           <span className={s.label}>Views</span>
-          <span className={s.quantity}>{views}</span>
+          <span className={s.quantity}>{stats.views}</span>
         </li>
         <li>
           <span className={s.label}>Likes</span>
-          <span className={s.quantity}>{likes}</span>
+          <span className={s.quantity}>{stats.likes}</span>
         </li>
       </ul>
     </div>
@@ -43,7 +43,9 @@ Profile.propTypes = {
   location: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  followers: PropTypes.number.isRequired,
-  views: PropTypes.number.isRequired,
-  likes: PropTypes.number.isRequired,
+  stats: PropTypes.shape({
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
+  }),
 };

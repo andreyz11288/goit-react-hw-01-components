@@ -6,9 +6,9 @@ function FriendListItem({ id, isOnline, avatar, name }) {
   return (
     <li key={id} className={s.item}>
       {isOnline ? (
-        <span className={s.status}></span>
+        <span className={s.status} />
       ) : (
-        <span className={s.noStatus}></span>
+        <span className={s.noStatus} />
       )}
       <img className={s.avatar} src={avatar} alt="" width="48" />
       <p className={s.name}>{name}</p>

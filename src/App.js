@@ -19,9 +19,7 @@ function App() {
           tag={data.tag}
           location={data.location}
           avatar={data.avatar}
-          followers={data.stats.followers}
-          views={data.stats.views}
-          likes={data.stats.likes}
+          stats={data.stats}
         />
       }
 
